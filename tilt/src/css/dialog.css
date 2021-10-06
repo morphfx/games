@@ -1,0 +1,43 @@
+.dlg-background {
+    background-color: #000000c0;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+.dlg {
+    position: absolute;
+    background-color: #f0f0f0;
+    left: 50%;
+    top: 50%;
+    width: 75%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 1px #808080;
+    text-align: center;
+    color: #a0a0a0;
+    padding-top: 25%;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+
+.dlg-progress-bar {
+    background-color:lightslategrey;
+    width: 90%;
+    height: 6px;
+    display: inline-block;
+    margin-top: 6px;
+    position: relative;
+    border: solid 1px lightslategrey;
+}
+
+.dlg-progress {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color:mintcream;
+    width: 0%;
+    height: 100%;
+}

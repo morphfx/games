@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        //"module": "commonjs",
+        //"outDir": "out",
+        "outFile": "out/tilt.js",
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
